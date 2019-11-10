@@ -1,0 +1,19 @@
+<?php
+
+
+    include '../migration/Migration.php';
+
+    class {classname} extends Migration {
+
+               public function up(){
+                   $this->create('{classname}', "");
+                   $this->primaryKeys('{classname}', "");
+                   $this->autoIncrement('{classname}', "");
+                   $this->insertInto('{classname}', "");
+               }
+
+               public function down(){
+                   $this->drop('{classname}');
+               }
+
+}

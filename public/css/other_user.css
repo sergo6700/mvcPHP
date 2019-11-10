@@ -1,0 +1,33 @@
+.card-user-other{
+    position: relative;
+    bottom: 16px;
+}
+.centered-user{
+    width: 120px;
+    position: relative;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.back-image{
+    height: 450px !important;
+    background: #bcbdc0 !important;
+    position: relative;
+}
+.uploadFile{
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+.image-upload > input[type='file'] {
+
+    visibility:hidden;
+    width:0;
+    height:0;
+}
+img{
+    object-fit: cover;
+}
+
+
+

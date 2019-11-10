@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body{
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+}
+.navlinks > li{
+    font-size: 15px;
+    margin-left: 18px;
+}
+.time{
+    font-size: 10px;
+    color: #6f9caa;
+}
+.card-message{
+    width: 18rem;
+    position: relative;
+    padding: 13px 13px 0 13px;
+
+}
+.message{
+    font-size: 12px;
+    color: #818181;
+}
+.message-settings{
+    padding: 0 5px 0 5px;
+}
+.message-settings > a{
+    color: #818181;
+    font-size: 13px;
+}
+.message-settings > a:hover{
+    color:crimson;
+    text-decoration-line: none;
+}
+@media (min-width: 992px){
+
+    .sidenav .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 65px;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/************************main content****************************/
+.user-card-header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.user-home-image{
+    position: absolute;
+    top: 50px;
+    align-self: center;
+}
+.add-friend{
+    font-size: 25px;
+}
+
+.story{
+    border-top:8px solid red ;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+}
+
+/*************chat***********************-*/
+.chat-box{
+    position: fixed !important;
+    z-index: 1;
+    right: 150px;
+    bottom: 15px;
+}  
+  
+.chat-menu{
+    width: 350px;
+}
+.message-area{
+    width: 100px;
+}
+
+.user-status{
+    font-size: 10px;
+}
+
+/***********************************************************************************************/
+.text-h6{
+    font-size: small;
+    color: #777777;
+}
+.scroll {
+    max-height: 300px;
+    overflow-y: auto;
+}
+textarea {
+    resize: none;
+}
+
+.friend-info{
+    position: relative;
+}
+.deleteFriend{
+    position: absolute;
+    top: 5px;
+    text-decoration: none;
+    color: red;
+    right: 30px;
+}
