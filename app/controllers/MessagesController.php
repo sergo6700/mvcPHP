@@ -19,7 +19,7 @@ class MessagesController extends AppController
     public function insertAction(){
         $output = '';
         $data = [
-           ':to_user'       =>      getPost('to_user_id'),
+            ':to_user'       =>      getPost('to_user_id'),
             ':from_user'    =>      $_SESSION['user']['id'],
             ':message'      =>      getPost('chat_message'),
             ':data'         =>      date("Y-m-d H:i:s")
